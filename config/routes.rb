@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'static_pages/home'
+  root 'static_pages#home'
 
   get 'static_pages/help'
 
@@ -59,5 +59,6 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
+  #  'application#hello'
 end
 

@@ -50,9 +50,6 @@ class UsersController < ApplicationController
     end
   end
 
-  def feed
-    Micropost.where("user_id = ?", id)
-  end
 
   def following
     @title = "Following"

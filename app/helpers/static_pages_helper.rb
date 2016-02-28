@@ -1,9 +1,9 @@
 module StaticPagesHelper
   def myTitle title = ''
     if title.empty?
-      title = "Tutorial"
+      title = "Home"
     else
-      title  = title + " | Tutorial"
+      title  = title + " | Quakker"
     end
   end
 end

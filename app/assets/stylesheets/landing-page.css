@@ -35,8 +35,9 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(/assets/intro-bg.jpg) no-repeat center center;
+    background: url('/assets/intro-bg.jpg') no-repeat center center;
     background-size: cover;
+    background-color: #337AB7;
 }
 
 .intro-message {
@@ -116,8 +117,9 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(/assets/banner-bg.jpg) no-repeat center center;
+    background: url('/assets/banner-bg.jpg') no-repeat center center;
     background-size: cover;
+    background-color: #337AB7;
 }
 
 .banner h2 {
